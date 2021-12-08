@@ -11,14 +11,14 @@ body{
     font-family: 'Poppins', 'Times New Roman', sans-serif;
     font-size:12px;
     background: rgb(3,1,34);
-    background: linear-gradient(11deg, rgba(3,1,34,1) 0%, rgb(253, 176, 9) 0%, rgba(3,3,152,1) 81%);
+    background: linear-gradient(11deg, rgb(253, 176, 9) 0%, rgba(3,3,152,1) 65%);
     
 }
 
 
 .container{
 
-    max-width: 150px;
+    max-width: 300px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -27,25 +27,50 @@ body{
 
 }
 
+.image{
+
+    text-align: center;
+
+    
+}
+
 input{
 
    margin:10px;
    padding:10px;
    border: none;
    box-sizing: border-box;
-   width: 100%;
+   width: 90%;
    
    
 }
 
-input[type="buttom"]{
-    background-color: tomato;
 
+
+.logo-user{
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    right: 2px;
+    padding: 5px;
 }
 
-label{
+.checkbox{
+
     display:inline-block;
-    align-items: left;
+}
+
+input[type="submit"]{
+    background-color: #0008;
+    color: #ffffbb;
+    text-transform: uppercase;
+
+}
+
+.submit{
+    width: 150px;
+    margin: auto;
 }
 
 
