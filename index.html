@@ -23,7 +23,7 @@
                 <img src="./assets/images/logo.png" alt="logo-login" />
             </div>
 
-            <form action="https://showdeimagem.com.br/" method="post">
+            <form  id="form" action="./index.html" method="post">
                 <div class="icon-input">
                     <span>
                         <input type="text" name="Username" id="username" placeholder="Username" />
@@ -35,7 +35,7 @@
                 </div>
                 <div class="checkbox">
                     <label class="box-container">Remember me
-                   <input type="checkbox" id="remember-me" name="Remember-me" />
+                   <input type="checkbox" name="Remember-me" id="remember-me" onclick="setcookie()" />
                    <span class="checkmark"></span>
                     </label>
                     <a href="#">Forgot Password?</a>
